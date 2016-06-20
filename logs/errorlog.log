@@ -1,0 +1,7 @@
+2016-06-19 17:03:37,809 DEBUG b.TestBasicRules01 [main] null
+2016-06-19 17:07:04,764 DEBUG b.TestBasicRules01 [main] 123
+2016-06-19 17:07:04,765 DEBUG b.TestBasicRules01 [main] /Users/ruins7/Documents/workspace/ECE654Project/basicrule02.txt (No such file or directory)
+2016-06-19 17:07:51,265 DEBUG b.TestBasicRules01 [main] class java.io.File -- /Users/ruins7/Documents/workspace/ECE654Project/basicrule02.txt (No such file or directory)
+2016-06-19 17:19:45,601 DEBUG b.TestBasicRules01 [main] class java.io.File -- /** (No such file or directory)
+2016-06-19 17:21:15,064 DEBUG b.TestBasicRules01 [main] class java.io.File -- /Users/ruins7/Documents/workspace/ECE654Project/basicrule02.txt (No such file or directory)
+2016-06-19 17:55:57,949 DEBUG b.TestBasicRules01 [main] class java.io.File -- workspace (No such file or directory)
