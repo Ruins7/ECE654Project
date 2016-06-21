@@ -52,7 +52,9 @@ public class TestBasicRules01 {
 			 logException(e, file);
 		 } finally {
 			try {
-				fis.close();
+				if(fis != null){
+					fis.close();
+				}
 				//throw new IOException();
 			} catch (IOException e) {
 				 //user interact

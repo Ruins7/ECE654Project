@@ -5,3 +5,20 @@
 2016-06-19 17:19:45,601 DEBUG b.TestBasicRules01 [main] class java.io.File -- /** (No such file or directory)
 2016-06-19 17:21:15,064 DEBUG b.TestBasicRules01 [main] class java.io.File -- /Users/ruins7/Documents/workspace/ECE654Project/basicrule02.txt (No such file or directory)
 2016-06-19 17:55:57,949 DEBUG b.TestBasicRules01 [main] class java.io.File -- workspace (No such file or directory)
+2016-06-21 16:43:50,038 DEBUG s.TestSecurityAndResources01 [main]  Security exception: Try to exit system: null
+2016-06-21 16:44:41,235 DEBUG s.TestSecurityAndResources01 [main]  Security exception: Try to exit system: [Ljava.lang.StackTraceElement;@6f1fba17
+2016-06-21 16:44:54,573 DEBUG s.TestSecurityAndResources01 [main]  Security exception: Try to exit system: [Ljava.lang.StackTraceElement;@6f1fba17
+2016-06-21 16:47:42,413 DEBUG s.TestSecurityAndResources01 [main]  Security exception: Try to exit system: null
+2016-06-21 16:48:38,705 DEBUG s.TestSecurityAndResources01 [main]  Security exception: Try to exit system: null
+2016-06-21 16:49:21,154 DEBUG s.TestSecurityAndResources01 [main]  Security exception: Try to exit system
+2016-06-21 16:52:04,819 DEBUG s.TestSecurityAndResources01 [main]  Security exception: Try to exit system
+2016-06-21 16:56:49,227 DEBUG s.TestSecurityAndResources01 [main]  Security exception: Try to exit system
+2016-06-21 16:57:24,113 DEBUG s.TestSecurityAndResources01 [main]  Security exception: Try to exit system
+2016-06-21 16:58:03,252 DEBUG s.TestSecurityAndResources01 [main]  Security exception: Try to exit system
+2016-06-21 17:01:19,134 DEBUG s.TestSecurityAndResources01 [main]  Security exception: Try to exit system
+2016-06-21 17:01:57,190 DEBUG s.TestSecurityAndResources01 [main]  Security exception: Try to exit system
+2016-06-21 17:02:20,902 DEBUG s.TestSecurityAndResources01 [main]  Security exception: Try to exit system
+2016-06-21 17:02:24,903 DEBUG s.TestSecurityAndResources01 [main]  Security exception: Try to exit system
+2016-06-21 17:03:17,330 DEBUG s.TestSecurityAndResources01 [main]  Security exception: Try to exit system
+2016-06-21 17:03:47,269 DEBUG s.TestSecurityAndResources01 [main]  Security exception: Try to exit system
+2016-06-21 17:21:58,267 DEBUG s.TestSecurityAndResources01 [main]  Security exception: Try to exit system
