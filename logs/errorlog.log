@@ -22,3 +22,4 @@
 2016-06-21 17:03:17,330 DEBUG s.TestSecurityAndResources01 [main]  Security exception: Try to exit system
 2016-06-21 17:03:47,269 DEBUG s.TestSecurityAndResources01 [main]  Security exception: Try to exit system
 2016-06-21 17:21:58,267 DEBUG s.TestSecurityAndResources01 [main]  Security exception: Try to exit system
+
