@@ -34,8 +34,11 @@ public class TestSecurityAndResources02 {
 	 */
 	public static void cloResWithTWR() throws FileNotFoundException, IOException{
 		 
-        try(BufferedReader br = new BufferedReader(new FileReader("/Users/ruins7/Desktop/1234.txt"))){
-            System.out.println("123123123");     
+        try(FileInputStream fis = new FileInputStream(new File("/Users/ruins7/Desktop/123.txt"))){
+            System.out.println("123123123"); 
+            // Thread.sleep(10000);
+            System.out.println("aabb"); 
+
           	//throw new IOException();
         } catch(Exception e) {
         	   System.err.println("error: " + e.getSuppressed().length);
