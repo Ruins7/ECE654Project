@@ -9,11 +9,9 @@
  */
 package securityAndResources;
 
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 
 /**
@@ -63,14 +61,13 @@ public class TestSecurityAndResources02 {
 	public static void cloResWithFinally() throws FileNotFoundException, IOException{
 		File file = new File("/Users/ruins7/desktop/1234.txt");
 	    FileInputStream fis = null;
-	    try {//fileNotFound
+	    try {
+	    		//fileNotFound
 			fis = new FileInputStream(file);
 			//other operation
-		} finally {//IOEXception
-			if(fis != null){
-				fis.close();
-			}
-		    throw new IOException();
+		} finally {
+			//IOEXception
+			fis.close();
 		}
 	}
 	
@@ -79,11 +76,14 @@ public class TestSecurityAndResources02 {
 	 * @Description: main method
 	 * @param args
 	 * @return: void
-	 * @throws IOException 
 	 */
-	public static void main(String[] args) throws IOException {
-		//cloResWithFinally();
-		cloResWithTWR();
+	public static void main(String[] args) {
+		try {
+			cloResWithFinally();
+		} catch (Exception e) {
+			e.printStackTrace();
+		} 
+		//cloResWithTWR();
 	}
 
 }
