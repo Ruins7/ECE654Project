@@ -42,11 +42,9 @@ public class TestTryCatchFinally03 {
 		 try {
 			 new FileInputStream(file);
 			 //both catches are reachable
-		} catch (SecurityException e) {
+		} catch (SecurityException | IOException e ) {
 			 
-		} catch (IOException e2) {
-			
-		}
+		}  
 
 	}
 
