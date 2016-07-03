@@ -1,18 +1,11 @@
 public class Test {
-
-	public void foo(){ 
-
-	}
 	
 	public static void main(String[] args)  {
-		
+		String s = new String("123");
+		//s = null;
+		System.out.println(s.length());
 	}
 	
 }
 
-class Test1 extends Test{
-	
-	public void foo() {
-
-	}
-}
+ 

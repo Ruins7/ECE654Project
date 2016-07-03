@@ -41,7 +41,7 @@ public class TestThrowAccurateValid01{
 		 if(str == null){
 			 return -1; 
 		 }
-		return str.length();
+		 return str.length();
 	}
 	
 	 

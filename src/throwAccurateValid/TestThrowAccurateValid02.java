@@ -23,8 +23,10 @@ public class TestThrowAccurateValid02 {
 	 * @param i
 	 * @return: void
 	 */
+//	public static void foo(int i) throws Throwable{ 
+	public static void foo(int i) throws Exception{ 
 //	public static void foo(int i) throws Exception1{ 
-	public static void foo(int i) throws Exception1,Exception2,Exception3{
+//	public static void foo(int i) throws Exception1,Exception2,Exception3{
 		if(i == 1){
 			throw new Exception1();
 		}
@@ -46,7 +48,7 @@ public class TestThrowAccurateValid02 {
 	public static void main(String[] args) {
 			try {
 				foo(3);
-			} catch (Exception1 e) {
+			} catch (Exception e) {
 				e.printStackTrace();
 			}
 	}
