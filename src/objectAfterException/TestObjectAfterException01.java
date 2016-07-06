@@ -9,7 +9,7 @@
  */
 package objectAfterException;
 
-import objectAfterException.aux.Account;
+import objectAfterException.auxclass.Account;
 
 /**
  * @ClassName: TestObjectAfterException

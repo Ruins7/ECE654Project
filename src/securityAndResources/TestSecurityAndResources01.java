@@ -17,8 +17,8 @@ import java.io.IOException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import securityAndResources.aux.MyExceptionFilter;
-import securityAndResources.aux.MySecurityManager;
+import securityAndResources.auxclass.MyExceptionFilter;
+import securityAndResources.auxclass.MySecurityManager;
 
 /**
  * @ClassName: TestSecurityAndResources01
