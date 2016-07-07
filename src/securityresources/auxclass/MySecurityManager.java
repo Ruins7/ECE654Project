@@ -7,7 +7,7 @@
  * @date: Jun 21, 2016 4:28:49 PM
  * @version: V1.0  
  */
-package securityAndResources.auxclass;
+package securityresources.auxclass;
 
 /**
  * @ClassName: MySecurityManager

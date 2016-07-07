@@ -7,7 +7,7 @@
  * @date: Jun 21, 2016 4:22:32 PM
  * @version: V1.0  
  */
-package securityAndResources;
+package securityresources;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -32,7 +32,7 @@ public class TestSecurityAndResources02 {
 	 */
 	public static void cloResWithTWR() throws FileNotFoundException, IOException{
 		 
-        try(FileInputStream fis = new FileInputStream(new File("/Users/ruins7/Desktop/123.txt"))){
+        try(FileInputStream fis = new FileInputStream(new File("F:/GitHub/mylocalgithubrepository/ECE654Project/basicrule.txt"))){
             System.out.println("123123123"); 
             // Thread.sleep(10000);
             System.out.println("aabb"); 
@@ -59,10 +59,10 @@ public class TestSecurityAndResources02 {
 	 * @throws: FileNotFoundException, IOException
 	 */
 	public static void cloResWithFinally() throws FileNotFoundException, IOException{
-		File file = new File("/Users/ruins7/desktop/1234.txt");
+		File file = new File("F:/GitHub/mylocalgithubrepository/ECE654Project/basicrule.txt");
 	    FileInputStream fis = null;
 	    try {
-	    		//fileNotFound
+	    	//fileNotFound
 			fis = new FileInputStream(file);
 			//other operation
 		} finally {
@@ -79,11 +79,12 @@ public class TestSecurityAndResources02 {
 	 */
 	public static void main(String[] args) {
 		try {
-			cloResWithFinally();
+			//cloResWithFinally();
+			cloResWithTWR();
 		} catch (Exception e) {
 			e.printStackTrace();
 		} 
-		//cloResWithTWR();
+		
 	}
 
 }

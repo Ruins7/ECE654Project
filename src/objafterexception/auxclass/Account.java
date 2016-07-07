@@ -1,4 +1,4 @@
-package objectAfterException.auxclass;
+package objafterexception.auxclass;
 
 public class Account {
 

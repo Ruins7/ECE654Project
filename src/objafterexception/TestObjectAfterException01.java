@@ -7,9 +7,9 @@
  * @date: Jun 29, 2016 10:18:09 PM
  * @version: V1.0  
  */
-package objectAfterException;
+package objafterexception;
 
-import objectAfterException.auxclass.Account;
+import objafterexception.auxclass.Account;
 
 /**
  * @ClassName: TestObjectAfterException

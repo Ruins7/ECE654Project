@@ -2,16 +2,15 @@
  * @Title: TestSecurityAndResoureces03.java
  * @Prject: ECE654Project
  * @Package: securityAndResources
- * @Description: TODO
+ * @Description: ECE 654 project security and resources demo 03
  * @author: ruins7  
  * @date: Jun 22, 2016 3:29:00 PM
  * @version: V1.0  
  */
-package securityAndResources;
+package securityresources;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.Iterator;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

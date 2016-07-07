@@ -7,7 +7,7 @@
  * @date: Jun 21, 2016 2:11:33 PM
  * @version: V1.0  
  */
-package securityAndResources;
+package securityresources;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -17,8 +17,8 @@ import java.io.IOException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import securityAndResources.auxclass.MyExceptionFilter;
-import securityAndResources.auxclass.MySecurityManager;
+import securityresources.auxclass.MyExceptionFilter;
+import securityresources.auxclass.MySecurityManager;
 
 /**
  * @ClassName: TestSecurityAndResources01
@@ -42,12 +42,12 @@ public class TestSecurityAndResources01 {
 		FileInputStream fis = null;
 		try {
 			//Windows:APPDATA, Linux : HOME, macOS: HOME
-			file = new File(System.getenv("HOME"));
+			file = new File(System.getenv("APPDATA"));
 			fis = new FileInputStream(file);
 			//other operation
 		} catch (FileNotFoundException e) {
 			//1. it will leak both exception content and type to user.
-			//e.printStackTrace();
+			e.printStackTrace();
 			//2. warp original exception and throw a more general one.
 			//it is still informative and unsafe. 
 			throw new SecurityException("io exception");
@@ -77,9 +77,9 @@ public class TestSecurityAndResources01 {
 		File file = null;
 		try {
 			//file = new File(System.getenv("HOME")).getCanonicalFile();
-			file = new File("/Users/ruins7/Desktop/123.txt");
+			file = new File("F:/GitHub/mylocalgithubrepository/ECE654Project/basicrule01.txt");
 			//if(!file.getAbsolutePath().startsWith("/Users/ruins7")){
-			if(!file.getCanonicalFile().toString().equals("/Users/ruins7/Desktop/123.txt")){
+			if(!file.getCanonicalFile().toString().equals("F:/GitHub/mylocalgithubrepository/ECE654Project/basicrule01.txt")){
 				System.out.println("invalid file.");
 				return;
 			}
@@ -96,8 +96,8 @@ public class TestSecurityAndResources01 {
 	 * @return: void
 	 */
 	public static void main(String[] args){
-		//leakInfoAndType();
-		//secureForSensitiveInfo();
+		leakInfoAndType();
+		secureForSensitiveInfo();
 		MySecurityManager msm = new MySecurityManager();
 		System.setSecurityManager(msm);
 		try {
