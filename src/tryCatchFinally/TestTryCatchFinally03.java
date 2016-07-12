@@ -7,7 +7,7 @@
  * @date: Jun 27, 2016 6:11:58 PM
  * @version: V1.0  
  */
-package tryCatchFinally;
+package trycatchfinally;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -29,19 +29,19 @@ public class TestTryCatchFinally03 {
 	 * @return: void
 	 */
 	public static void main(String[] args) {
-		File file = new File("/Users/ruins7/Desktop/123.txt");
+		File file = new File("F:/GitHub/mylocalgithubrepository/ECE654Project/basicrule01.txt");
 		FileInputStream fis = null;
 		 try {
 			new FileInputStream(file);
 		} catch (FileNotFoundException e) {
 			//reachable
 		} catch (IOException e2) {
-			//compiler thinks it is reachable ,but it is unreachable
+			//it is unreachable,should be removed
 		}
 		 
 		 try {
 			 new FileInputStream(file);
-			 //both catches are reachable
+			 //both catches are reachable,and after JDK1.7, we can write more exception type in one catch
 		} catch (SecurityException | IOException e ) {
 			 
 		}  

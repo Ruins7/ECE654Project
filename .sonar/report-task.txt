@@ -1,5 +1,5 @@
 projectKey=ECE654Project
 serverUrl=http://localhost:9000
 dashboardUrl=http://localhost:9000/dashboard/index/ECE654Project
-ceTaskId=AVXHUPiCJmnGDmNGAWS8
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AVXHUPiCJmnGDmNGAWS8
+ceTaskId=AVXRSMTaVhKu8h_2bvLf
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVXRSMTaVhKu8h_2bvLf

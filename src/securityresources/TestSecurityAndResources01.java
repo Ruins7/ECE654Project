@@ -79,11 +79,13 @@ public class TestSecurityAndResources01 {
 			//file = new File(System.getenv("HOME")).getCanonicalFile();
 			file = new File("F:/GitHub/mylocalgithubrepository/ECE654Project/basicrule01.txt");
 			//if(!file.getAbsolutePath().startsWith("/Users/ruins7")){
-			if(!file.getCanonicalFile().toString().equals("F:/GitHub/mylocalgithubrepository/ECE654Project/basicrule01.txt")){
+			// policy to restrict files only from indicated content
+			if(!file.getAbsolutePath().startsWith("F:/GitHub/mylocalgithubrepository/ECE654Project/")){
 				System.out.println("invalid file.");
 				return;
 			}
 		} catch (Throwable e) {
+			//sensitive exception information filter
 			 MyExceptionFilter.exceptionFilter(e);
 		}
 	}
@@ -96,8 +98,10 @@ public class TestSecurityAndResources01 {
 	 * @return: void
 	 */
 	public static void main(String[] args){
-		leakInfoAndType();
+		//leakInfoAndType();
 		secureForSensitiveInfo();
+		
+		//before terminate JVM, we could write a log at least to record why system would terminate.
 		MySecurityManager msm = new MySecurityManager();
 		System.setSecurityManager(msm);
 		try {

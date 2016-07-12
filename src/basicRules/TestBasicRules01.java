@@ -7,7 +7,7 @@
  * @date: Jun 19, 2016 2:48:23 PM
  * @version: V1.0  
  */
-package basicRules;
+package basicrules;
 
 import java.io.File;
 import java.io.FileInputStream;

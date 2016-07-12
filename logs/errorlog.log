@@ -25,3 +25,10 @@
 
 2016-06-23 15:23:57,200 DEBUG s.TestSecurityAndResources01 [main]  Security exception: Try to exit system
 2016-07-07 16:10:06,718 DEBUG s.TestSecurityAndResources01 [main]  Security exception: Try to exit system
+2016-07-09 15:28:37,430 DEBUG s.TestSecurityAndResources01 [main]  Security exception: Try to exit system
+2016-07-09 15:35:27,140 DEBUG s.TestSecurityAndResources03 [main] [Ljava.lang.StackTraceElement;@5a8e6209
+2016-07-09 15:35:27,141 DEBUG s.TestSecurityAndResources03 [main] [Ljava.lang.StackTraceElement;@47ef968d
+2016-07-09 15:35:27,142 DEBUG s.TestSecurityAndResources03 [main] [Ljava.lang.StackTraceElement;@23e028a9
+2016-07-09 15:35:27,142 DEBUG s.TestSecurityAndResources03 [main] [Ljava.lang.StackTraceElement;@3dd4520b
+2016-07-09 15:35:27,142 DEBUG s.TestSecurityAndResources03 [main] [Ljava.lang.StackTraceElement;@5ae63ade
+2016-07-09 15:35:27,142 DEBUG s.TestSecurityAndResources03 [main] [Ljava.lang.StackTraceElement;@610694f1

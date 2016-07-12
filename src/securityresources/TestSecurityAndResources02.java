@@ -33,10 +33,6 @@ public class TestSecurityAndResources02 {
 	public static void cloResWithTWR() throws FileNotFoundException, IOException{
 		 
         try(FileInputStream fis = new FileInputStream(new File("F:/GitHub/mylocalgithubrepository/ECE654Project/basicrule.txt"))){
-            System.out.println("123123123"); 
-            // Thread.sleep(10000);
-            System.out.println("aabb"); 
-
           	//throw new IOException();
         } catch(Exception e) {
         	   System.err.println("error: " + e.getSuppressed().length);
@@ -62,12 +58,13 @@ public class TestSecurityAndResources02 {
 		File file = new File("F:/GitHub/mylocalgithubrepository/ECE654Project/basicrule.txt");
 	    FileInputStream fis = null;
 	    try {
-	    	//fileNotFound
+	    	//fileNotFound exception
 			fis = new FileInputStream(file);
 			//other operation
 		} finally {
-			//IOEXception
-			fis.close();
+			//IOEXception 
+			//fis.close();
+			throw new IOException();
 		}
 	}
 	
@@ -79,8 +76,8 @@ public class TestSecurityAndResources02 {
 	 */
 	public static void main(String[] args) {
 		try {
-			//cloResWithFinally();
-			cloResWithTWR();
+			cloResWithFinally();
+			//cloResWithTWR();
 		} catch (Exception e) {
 			e.printStackTrace();
 		} 

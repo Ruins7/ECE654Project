@@ -7,7 +7,7 @@
  * @date: Jun 19, 2016 5:23:02 PM
  * @version: V1.0  
  */
-package basicRules;
+package basicrules;
 
 /**
  * @ClassName: TestBasicRules02

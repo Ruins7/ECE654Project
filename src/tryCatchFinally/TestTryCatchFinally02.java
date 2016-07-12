@@ -7,7 +7,7 @@
  * @date: Jun 27, 2016 5:01:13 PM
  * @version: V1.0  
  */
-package tryCatchFinally;
+package trycatchfinally;
 
 /**
  * @ClassName: TestTryCatchFinally02
@@ -28,7 +28,7 @@ public class TestTryCatchFinally02 {
 		try {
 			System.out.println("now try is running...");
 		    return 1;
-		    
+		    //no exception occures, so catch block will not be execute,reture 1
 		} catch(Exception e){
 			System.out.println("now catch is running...");
 			return 2;
@@ -48,10 +48,11 @@ public class TestTryCatchFinally02 {
 			System.out.println("now try is running...");
 			return 3;
 		} catch(Exception e){
-			
-		} finally{
-			System.out.println("now fianlly is running...");
 			return 4;
+		} finally{
+			//the same,catch block will not execute,but finally will, so return 5
+			System.out.println("now fianlly is running...");
+			return 5;
 		}
 		
 	}

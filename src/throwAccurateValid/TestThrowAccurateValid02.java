@@ -7,7 +7,7 @@
  * @date: Jun 28, 2016 10:27:08 PM
  * @version: V1.0  
  */
-package throwAccurateValid;
+package throwaccuratevalid;
 
 /**
  * @ClassName: TestThrowAccurateValid02

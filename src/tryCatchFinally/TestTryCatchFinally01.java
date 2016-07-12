@@ -7,7 +7,7 @@
  * @date: Jun 27, 2016 3:49:31 PM
  * @version: V1.0  
  */
-package tryCatchFinally;
+package trycatchfinally;
 
 import java.io.File;
 import java.io.IOException;
@@ -30,7 +30,7 @@ public class TestTryCatchFinally01 {
 		long startTime = System.nanoTime();
 		for (int i = 0; i < loopNumber; i++) {
 			try {
-				File file = new File("/Users/ruins7/Desktop/abc.txt");
+				File file = new File("F:/GitHub/mylocalgithubrepository/ECE654Project/basicrule01.txt");
 				if(!file.exists()){
 					file.createNewFile();
 				} else if(file.exists()){
