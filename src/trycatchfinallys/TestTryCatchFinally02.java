@@ -7,7 +7,7 @@
  * @date: Jun 27, 2016 5:01:13 PM
  * @version: V1.0  
  */
-package trycatchfinally;
+package trycatchfinallys;
 
 /**
  * @ClassName: TestTryCatchFinally02
