@@ -7,7 +7,7 @@
  * @date: Jun 27, 2016 3:49:31 PM
  * @version: V1.0  
  */
-package trycatchfinallys;
+package trycatchfinally;
 
 import java.io.File;
 import java.io.IOException;
