@@ -15,3 +15,16 @@ Materials References
 - [Oracle Code Conventions for the Java Programming Practices](http://www.oracle.com/technetwork/java/javase/documentation/codeconventions-137265.html)
 - [Google Java Style Guide
 ](https://google.github.io/styleguide/javaguide.html#s6.1-override-annotation)
+
+
+###Run Time Environment###
+- JDK1.8
+
+###Description of each package###
+- There are six packages in the project which are the six classcifications
+- basicrule is the package for basic rules category
+- objafterexception is the package for object after exceptions category
+- others is the category for others
+- securityresources is the category for security and resources
+- throwaccucvalid is the package for validly and accurately throws exception category
+- trycatchfinally is the package for the try-catch-finally blocks category
