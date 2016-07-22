@@ -21,7 +21,7 @@ Materials References
 - JDK1.8
 
 ###Description of each package###
-- There are six packages in the project which are the six classcifications
+- There are six packages in the project which are the six classifications
 - basicrule is the package for basic rules category
 - objafterexception is the package for object after exceptions category
 - others is the category for others
