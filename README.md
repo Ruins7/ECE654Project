@@ -2,10 +2,16 @@
 
 Time : June 9 2016
 
-## Java coding standards and best practices about Exception ##
+## Java coding standards and best practices about Exception and checking tools applicaiton##
 
 Materials References
 
 - [Practical Java](https://books.google.ca/books?id=iWPeqljHNcoC&pg=PA61&source=gbs_toc_r&cad=4#v=onepage&q&f=false)
 - [SEI CERT Oracle Coding Standard for Java](https://www.securecoding.cert.org/confluence/display/java/SEI+CERT+Oracle+Coding+Standard+for+Java)
 - JPL-Java standards
+- [Jet Propulsion Laboratory Java Coding Standard]()
+- [Better Java from Github](https://github.com/cxxr/better-java)
+- [Vanderbilt Component Engineering Group Java Coding Standard](https://www.mc.vanderbilt.edu/infocntr/infointgr/AppDevelopment/javaCodingStd.html#secDoc)
+- [Oracle Code Conventions for the Java Programming Practices](http://www.oracle.com/technetwork/java/javase/documentation/codeconventions-137265.html)
+- [Google Java Style Guide
+](https://google.github.io/styleguide/javaguide.html#s6.1-override-annotation)
