@@ -41,7 +41,7 @@ public class TestSecurityAndResources01 {
 		File file = null;
 		FileInputStream fis = null;
 		try {
-			//Windows:APPDATA, Linux : HOME, macOS: HOME
+			//Windows : APPDATA, Linux : HOME, macOS: HOME
 			file = new File(System.getenv("APPDATA"));
 			fis = new FileInputStream(file);
 			//other operation

@@ -57,7 +57,7 @@ public class TestTryCatchFinally01 {
 		long startTime = System.nanoTime();
 		try {
 			for (int i = 0; i < loopNumber; i++) {
-				File file = new File("/Users/ruins7/Desktop/abc.txt");
+				File file = new File("F:/GitHub/mylocalgithubrepository/ECE654Project/basicrule01.txt");
 				if(!file.exists()){
 					file.createNewFile();
 				} else if(file.exists()){
@@ -82,8 +82,9 @@ public class TestTryCatchFinally01 {
 	 */
 	public static void main(String[] args) {
 		int loopNumber = 50000;
-		System.out.println("milliseconds that put try-catch in loop: "+ withinLoop(loopNumber));
-		System.out.println("milliseconds that put try-catch out of loop: "+ outOfLoop(loopNumber));
+		System.out.println("nanoseconds that put try-catch out of loop: "+ outOfLoop(loopNumber));
+		System.out.println("nanoseconds that put try-catch in loop:     "+ withinLoop(loopNumber));
+		
 	}
 
 }
