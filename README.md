@@ -1,4 +1,4 @@
-# ECE 654 Project of Shangru(Freddy) Li 20637274#
+# ECE Project of Freddy Lee #
 
 Time : June 9 2016
 
